@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+:root{
+    --box-shadow:0.6rem 0.6rem rgba(0,0,0,.1);
+    --main-color:#be9c79;
+    --black:#333;
+    --whitw:#fff;
+    --light-color:#666;
+    --border:.1rem solid var(var(--black));
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Nav Container start */
+    .navBar{
+        box-shadow: var(--box-shadow);
+        font-family: "Nunito Sans", sans-serif !important;
+    }
+    .navBar a:hover{
+        text-decoration: underline 2px solid;
+        color: var(--main-color) !important;
+    }
+/* Nav Container end */
+
+/* Hero Container Start */
+    .btn{
+        background-color:rgb(195, 157, 118)!important;
+    }
+    .btn{
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .btn:hover{
+        background-color: black!important;
+        color: white;
+    }
+    .heroContainer{
+        background-image:url(./images/home-bg.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 350px 0;
+    }
+    .jumbotran h1{
+        font-family: "Merienda", cursive;
+        font-size: 70px;
+    }
+
+/* Hero Container End */
+
+/* About Container Start */
+
+    .about h1{
+        font-family: "Merienda", cursive;
+        line-height: 1.5;
+    }
+    p{
+        font-family: 'Nunito Sans', sans-serif;
+        line-height: 2;
+
+    }
+    
+/* About Container End */
+
+/* Facility Container Start */
+    .facilityHeading img{
+        width: 200px;
+    }
+    .facilityHeading h2{
+        font-family: "Merienda", cursive;
+    }
+    .facilityCard-body h2{
+        color: rgb(50, 48, 48);
+    }
+    .facilityCard-body{
+        font-family: 'Nunito Sans', sans-serif;
+        line-height: 2;
+    }
+
+/* Facility Container End */
+
+/* Menu Container Start */
+.menu h3{
+    margin-left: 10px;
+}
+.menuHeading img{
+    width: 200px;
+}
+/* Menu Container End */
+
+
+/* Gallery Container Start*/
+    .gallery img{
+        width: 200px;
+    }
+    .galleryHeading h2{
+        font-family: "Merienda", cursive;
+    }
+    .galleryBox img{
+        width: 350px;
+    }
+    
+/* Gallery Container End*/
+
+/* Team Container Start*/
+.team img{
+    width: 200px;
+}
+.teamHeading h2{
+    font-family: "Merienda", cursive;
+}
+.teamBox img{
+    width: 350px;
+}
+/* Gallery Container End*/
+
+/* Contact Container Start */
+
+    .headingTitle img{
+        width: 200px;
+    }
+    .heading h2{
+        font-family: "Merienda", cursive;
+    }
+    .bookingForm h2{
+        font-family: "Nunito Sans", sans-serif
+    }
+    .btn{
+        background-color:rgb(195, 157, 118)!important;
+    }
+    .btn:hover{
+        background-color: black!important;
+        color: white;
+    }
+
+/* Contact Container End */
+
+
+/* Footer Container Start */
+
+    .contactIconsContainer{
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    i{
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 50px;
+        font-size: 25px;
+        background-color: rgb(195, 157, 118);
+        border: none;
+    }
+    #location i{
+        padding: 20px 24px;
+    }
+    .iconCardBody p{
+        color:rgb(98, 92, 87);
+        line-height: 1;
+    }
+    span{
+        color: rgb(211, 166, 120);
+    }
+
+/* Footer Container End */
